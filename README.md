@@ -4,7 +4,7 @@
 https://xueweiji.github.io/
 
 ## TerpConnect Site Link
-https://terpconnect.umd.edu/~xueweiji/xueweiji.github.io/
+https://terpconnect.umd.edu/~camellia/xueweiji.github.io/
 
 ## Custom changes:
 * Change paragraphs' text font and size
