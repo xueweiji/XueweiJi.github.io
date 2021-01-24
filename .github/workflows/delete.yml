@@ -1,0 +1,22 @@
+name: delete workflow
+on:
+  workflow_dispatch:
+
+jobs:
+  job_one:
+    name: Delete
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Delete testing
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          port: ${{ secrets.PORT }}
+          script: |
+            cd ../pub/
+            unalias rm
+            rm -rf xueweiji.github.io/
+
